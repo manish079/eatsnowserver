@@ -62,6 +62,6 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something broke!");
 });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log(`Server is listening on http://localhost:${PORT}`);
 });
